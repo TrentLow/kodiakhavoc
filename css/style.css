@@ -1,0 +1,109 @@
+.instaimg img {
+  margin-bottom: 30px;
+  display: flex;
+}
+.instaimg img:hover {
+  opacity: 0.8;
+  -mox-opacity: 0.8;
+  -webkit-opacity: 0.8;
+}
+#navbar {
+  display: flex;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 10px;
+  background-color: #2a2424;
+}
+.nav-link {
+  font-weight: bold;
+  font-size: 24px;
+  color: gray;
+  text-decoration: none;
+}
+.affiliates:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2a2424;
+  min-width: 14px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-size: 20px;
+}
+.dropdown-content a:link {
+  text-decoration: none;
+  color: gray;
+}
+.affiliates .dropbtn {
+  font-size: 24px;
+  border: none;
+  outline: none;
+  color: gray;
+  font-weight: bold;
+  background-color: inherit;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+#about {
+  width: auto;
+  margin: 4%;
+  margin-top: 3%;
+  background: white;
+  border-radius: 25px;
+  border: 6px solid black;
+  padding: 20px;
+}
+#home {
+  text-align: center;
+  height: ;
+  padding: 80px;
+}
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+p {
+  text-align: center;
+}
+p a:visited {
+  color: blue;
+}
+body {
+  background-image: url("https://www.dropbox.com/s/ska09j8x58awdv7/tacback.jpg?raw=1");
+}
+#insta {
+  width: auto;
+  margin: 4%;
+  margin-top: 3%;
+  background: white;
+  border-radius: 25px;
+  border: 6px solid black;
+  padding: 10px;
+  height: vh;
+}
+#stream {
+  text-align: center;
+}
+#contact {
+  width: auto;
+  margin: 4%;
+  margin-top: 3%;
+  background: white;
+  border-radius: 25px;
+  border: 6px solid black;
+  padding: 20px;
+}
+#ct {
+  text-align: center;
+  list-style: none;
+  font-size: 20px;
+}
+#ct a:visited {
+  color: blue;
+}
