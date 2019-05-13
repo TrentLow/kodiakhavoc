@@ -47,7 +47,7 @@
   font-weight: bold;
   background-color: inherit;
   margin: 0;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 #about {
   width: auto;
@@ -132,4 +132,7 @@ body {
     text-align: center;
     padding: 10px 490px;
   }
+}
+* {
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
