@@ -60,7 +60,6 @@
 }
 #home {
   text-align: center;
-  height: ;
   padding: 80px;
 }
 h1 {
@@ -105,4 +104,32 @@ body {
 }
 #ct a:visited {
   color: blue;
+}
+@media only screen and (max-width: 600px) {
+  #about {
+    padding: 60px;
+    text-align: center;
+    width: 860px;
+  }
+  #navbar {
+    padding: 10px;
+  }
+  #home {
+    padding: 120px 325px;
+  }
+  #insta {
+    text-align: center;
+    padding: 0px 490px;
+  }
+  #instafeed {
+    text-align: center;
+  }
+  .instaimg img {
+    padding: 15px;
+    margin: 6px;
+  }
+  #contact {
+    text-align: center;
+    padding: 10px 490px;
+  }
 }
